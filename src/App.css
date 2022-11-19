@@ -43,7 +43,7 @@ body::-webkit-scrollbar-thumb {
   float: left;
 }
 .Menu ul {
-  max-width: 80%;
+  max-width: 90%;
   height: 1cm;
   padding: 0;
   list-style: none;
@@ -55,12 +55,12 @@ body::-webkit-scrollbar-thumb {
 
 }
 .menubotoes {
-  margin-right: 1.6cm;
+  margin-right: 1.5cm;
 }
 .Menu ul li a {
   padding-top: 0.5cm;
   padding-right: 0.2cm;
-  padding-right: 0.2cm;
+  padding-left: 0.2cm;
   display: inline-block;
   text-decoration: none;
   color: white;
@@ -257,6 +257,7 @@ body::-webkit-scrollbar-thumb {
     
   }
   .Menu{
+    margin-top: -2.4em;
     justify-content: center;
     height: 1.3cm;
   }
@@ -266,5 +267,9 @@ body::-webkit-scrollbar-thumb {
   .Menu-titulo{
     min-width: 0%;
     width: 0%;
+  }
+  .menubotoes {
+    width: 80%;
+    margin-left: 5%;
   }
 }
