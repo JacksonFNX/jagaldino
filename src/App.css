@@ -68,21 +68,21 @@ body::-webkit-scrollbar-thumb {
   text-decoration: none;
 }
 .About-group-redes {
-  width: 35%;
+  width: 40%;
   float: left;
   background: #01001370;
-  margin: 2.5%;
-  min-height: 12cm;
+  margin: 2%;
+  min-height: 13cm;
   padding: 2%;
   border-radius: 10px;
   box-shadow:         0px 5px 7px #00000070;
 }
 .About-group-desc {
-  width: 45%;
+  width: 44%;
   float: right;
-  min-height: 12cm;
+  min-height: 13cm;
   background: #01001370;
-  margin: 2.5%;
+  margin: 2%;
   padding: 2%;
   border-radius: 10px;
   text-align: start;
