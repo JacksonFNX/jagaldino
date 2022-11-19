@@ -216,6 +216,23 @@ body::-webkit-scrollbar-thumb {
   float: left;
   border-radius: 10px;
 }
+.Project-block1, .Project-block2, .Project-block3, .Project-block4, .Project-block5, .Project-block6{
+  position: relative;
+  display: inline-block;
+  opacity: 0.5;
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1)
+}
+.Project-block1:after, .Project-block2:after, .Project-block3:after, .Project-block4:after, .Project-block5:after, .Project-block6:after {
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1)
+}
+.Project-block1:hover, .Project-block2:hover, .Project-block3:hover, .Project-block4:hover, .Project-block5:hover, .Project-block6:hover{
+  opacity: 1;
+  transform: scale(115%) ;
+  
+}
+.Project-block1:hover::after, .Project-block2:hover::after, .Project-block3:hover::after, .Project-block4:hover::after, .Project-block5:hover::after, .Project-block6:hover::after{
+  opacity: 1;
+}
 #Contact{
   color: white;
   padding: 0.01cm;
