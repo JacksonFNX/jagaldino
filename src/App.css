@@ -1,0 +1,227 @@
+header {
+  font-family: 'Comfortaa',sans-serif;
+}
+body::-webkit-scrollbar {
+  width: 4px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #1C1C1C;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #00ccff;
+  border: none;
+}
+@font-face{
+  font-family: 'Comfortaa';
+  src: url('./Fonts/Comfortaa-VariableFont_wght.ttf');
+} 
+.App {
+  text-align: center;
+}
+.titulos {
+  font-family: 'Comfortaa';
+  font-size: 1.5cm;
+  text-align: start;
+  margin-left: 1.5cm;
+  margin-top: 2cm;
+}
+.Menu {
+  padding: 0;
+  background-color: #031134;
+  height: 2cm;
+  background:  linear-gradient( 120deg, #00000e,  #1b002b );
+}
+.Menu-titulo{
+  width: 10cm;
+  margin: 0.2cm;
+  margin-left: 1cm;
+  float: left;
+}
+.Menu-icone {
+  width: 1.6cm;
+  margin: 0.2cm;
+  margin-left: 1cm;
+  float: left;
+}
+.Menu ul {
+  width: 500px;
+  height: 50px;
+  padding: 0;
+  list-style: none;
+  float: right;
+  margin: 0;
+}
+.Menu ul li {
+  display: inline;
+
+}
+.Menu ul li a {
+  padding: 16px 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+}
+.Menu ul li a:hover{
+  color: #585858;
+  text-decoration: none;
+}
+.About-group-redes {
+  width: 35%;
+  float: left;
+  background: #01001370;
+  margin: 2.5%;
+  min-height: 12cm;
+  padding: 2.5%;
+  border-radius: 10px;
+  box-shadow:         0px 5px 7px #00000070;
+}
+.About-group-desc {
+  width: 45%;
+  float: right;
+  min-height: 12cm;
+  background: #01001370;
+  margin: 2.5%;
+  padding: 2.5%;
+  border-radius: 10px;
+  text-align: start;
+  box-shadow:         0px 5px 7px #00000070;
+}
+.About-group-desc p {
+  margin: 0;
+  margin-left: 2%;
+  
+}
+.About-foto {
+  width: 40%;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow:         0px 5px 7px #00000070;
+}
+.About-icone {
+  padding: 0.3cm;
+  width: 1cm;
+  height: 1cm;
+  pointer-events: none;
+  vertical-align: middle;
+  border-radius: 10px;
+}
+.About-redes {
+  float: left;
+
+
+}
+.About-group-tec {
+  float: left;
+  height: 2cm;
+  margin: 0.2cm;
+  border-radius: 10px;
+  font-size: 80%;
+}
+.About-desc-icone {
+  padding: 0.3cm;
+  width: 1.4cm;
+  pointer-events: none;
+  vertical-align: bottom;
+  border-radius: 10px;
+  padding-bottom: 0.1cm;
+}
+#About-header {
+  background:  linear-gradient( 120deg, #02011f, #22003d, #2c0041, #003a57 ); 
+  min-height: 28cm;
+  height: relative;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.About-link {
+  padding-right: 0.3cm;
+  color: #368cfd;
+  float: right;
+  position: relative;
+  text-decoration: none;
+}
+.About-redes a:hover {
+  color: #585858;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#Projects {
+  padding-top: 0.1cm;
+  color: white;
+  min-height: 25cm;
+  justify-content: center;
+  background: #0a0a0a;
+  font-size: calc(10px + 2vmin);
+}
+.Project-block1 {
+  background: url('./Images/1.png');
+  margin-left: 2.5%;
+  margin-top: 1cm;
+  width: 30%;
+  height: 7cm;
+  float: left;
+  border-radius: 10px;
+}
+.Project-block2 {
+  background: url('./Images/2.png');
+  margin-left: 2.5%;
+  margin-top: 1cm;
+  width: 30%;
+  height: 7cm;
+  float: left;
+  border-radius: 10px;
+}
+.Project-block3{
+  background: url('./Images/3.png');
+  margin-left: 2.5%;
+  margin-top: 1cm;
+  width: 30%;
+  height: 7cm;
+  float: left;
+  border-radius: 10px;
+}
+.Project-block4 {
+  background: url('./Images/4.png');
+  margin-left: 2.5%;
+  margin-top: 1cm;
+  width: 30%;
+  height: 7cm;
+  float: left;
+  border-radius: 10px;
+}
+.Project-block5 {
+  background: url('./Images/5.png');
+  margin-left: 2.5%;
+  margin-top: 1cm;
+  width: 30%;
+  height: 7cm;
+  float: left;
+  border-radius: 10px;
+}
+.Project-block6 {
+  background: url('./Images/6.png');
+  margin-left: 2.5%;
+  margin-top: 1cm;
+  width: 30%;
+  height: 7cm;
+  float: left;
+  border-radius: 10px;
+}
+#Contact{
+  color: white;
+  padding: 0.01cm;
+  min-height: 25cm;
+  background: #0a0a0a;
+  font-size: calc(10px + 2vmin);
+}
