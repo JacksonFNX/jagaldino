@@ -27,7 +27,7 @@ function App() {
               <div className="About-redes">
                 <a
                   className="About-link"
-                  href="https://www.linkedin.com/in/jackson-galdino-651548197/"
+                  href="https://www.linkedin.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -38,7 +38,7 @@ function App() {
               <div className="About-redes">
                 <a
                   className="About-link"
-                  href="https://github.com/JacksonFNX"
+                  href="https://github.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -49,7 +49,7 @@ function App() {
               <div className="About-redes">
                 <a
                   className="About-link"
-                  href="https://www.instagram.com/jagaldinofnx/"
+                  href="https://www.instagram.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -72,7 +72,7 @@ function App() {
           </div>
           <div className="About-group-desc">
               <h3>Quem sou eu?</h3>
-              <p> &nbsp; Olá! Me chamo Jackson Galdino, sou Freelancer e atualmente estou cursando Ciência da Computação no Centro Universitário de João Pessoa (UNIPÊ).
+              <p> &nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
               </p> <br/>
               <h3>Tecnologias:</h3>
               <br/>
