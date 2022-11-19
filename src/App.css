@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 header {
   font-family: 'Comfortaa',sans-serif;
 }
@@ -163,13 +166,15 @@ body::-webkit-scrollbar-thumb {
   font-size: calc(10px + 2vmin);
 }
 .Project-block1 {
-  background: url('./Images/1.png');
+  background: url('./Images/cafe.jpg');
   margin-left: 2.5%;
   margin-top: 1cm;
   width: 30%;
+  background-size: cover;
   height: 7cm;
   float: left;
   border-radius: 10px;
+
 }
 .Project-block2 {
   background: url('./Images/2.png');
@@ -293,4 +298,7 @@ body::-webkit-scrollbar-thumb {
     width: 80%;
     margin-left: 5%;
   }
+}
+#Projects a {
+  color: white;
 }

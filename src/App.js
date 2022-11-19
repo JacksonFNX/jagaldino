@@ -98,9 +98,12 @@ function App() {
       <div id= "Projects">
               <h2 className="titulos">Projetos</h2>
               <div className="container3">
-                <div className="Project-block1">
-                Em breve
+              <a className="link-projetos" href="https://jacksonfnx.github.io/acacafe/" target="_blank">
+              <div className="Project-block1">
+                  Cafeteria (academico)
                 </div>
+              </a>
+                
                 <div className="Project-block2">
                   Em breve
                 </div>
