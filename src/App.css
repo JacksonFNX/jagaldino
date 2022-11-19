@@ -25,14 +25,11 @@ body::-webkit-scrollbar-thumb {
   font-size: 1.5cm;
   text-align: start;
   margin-left: 1.5cm;
-  margin-top: 2cm;
 }
 .Menu {
   position: fixed;
   padding: 0;
-  padding-right: 10%;
-  padding-top: 0.2cm;
-  margin-top: -2.8em;
+  margin-top: -1.4em;
   width: 100%;
   background-color: #031134;
   height: 1.8cm;
