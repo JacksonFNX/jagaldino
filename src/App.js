@@ -29,7 +29,7 @@ function App() {
                   className="About-link"
                   href="#"
                   // href="https://www.linkedin.com/in/jackson-galdino-651548197/"
-                  // target="_blank"
+                  target="_self"
                   rel="noopener noreferrer"
                 >
                 <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" className="About-icone" alt="linkedin"/> 
@@ -41,7 +41,7 @@ function App() {
                   className="About-link"
                   href="#"
                   // href="https://github.com/JacksonFNX"
-                  // target="_blank"
+                  target="_self"
                   rel="noopener noreferrer"
                 >
                 <img src="https://github.githubassets.com/favicons/favicon-dark.png" className="About-icone" alt="linkedin"/> 
@@ -53,7 +53,7 @@ function App() {
                   className="About-link"
                   href="#"
                   // href="https://www.instagram.com/jagaldinofnx/"
-                  // target="_blank"
+                  target="_self"
                   rel="noopener noreferrer"
                 >
                 <img src="https://static.cdninstagram.com/rsrc.php/v3/yB/r/-7Z_RkdLJUX.png" className="About-icone" alt="Instagram"/> 
