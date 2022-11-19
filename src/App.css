@@ -2,11 +2,11 @@ header {
   font-family: 'Comfortaa',sans-serif;
 }
 body::-webkit-scrollbar {
-  width: 4px;               /* width of the entire scrollbar */
+  width: 4px; 
 }
 
 body::-webkit-scrollbar-track {
-  background: #1C1C1C;        /* color of the tracking area */
+  background: #1C1C1C;  
 }
 
 body::-webkit-scrollbar-thumb {
@@ -28,22 +28,25 @@ body::-webkit-scrollbar-thumb {
   margin-top: 2cm;
 }
 .Menu {
+  position: fixed;
   padding: 0;
+  padding-right: 10%;
+  padding-top: 0.2cm;
+  margin-top: -2.8em;
+  width: 100%;
   background-color: #031134;
-  height: 2cm;
+  height: 1.8cm;
   background:  linear-gradient( 120deg, #00000e,  #1b002b );
 }
 .Menu-titulo{
   min-width: 20%;
   width: 20%;
-  height: 1.5cm;
   margin: 0.2cm;
   margin-left: 1cm;
   float: left;
-  object-fit:scale-down
 }
 .Menu ul {
-  max-width: 70%;
+  max-width: 80%;
   height: 1cm;
   padding: 0;
   list-style: none;
@@ -54,8 +57,13 @@ body::-webkit-scrollbar-thumb {
   display: inline;
 
 }
+.menubotoes {
+  margin-right: 1.6cm;
+}
 .Menu ul li a {
-  padding: 16px 10px;
+  padding-top: 0.5cm;
+  padding-right: 0.2cm;
+  padding-right: 0.2cm;
   display: inline-block;
   text-decoration: none;
   color: white;
@@ -100,14 +108,11 @@ body::-webkit-scrollbar-thumb {
   padding: 0.3cm;
   width: 1cm;
   height: 1cm;
-  pointer-events: none;
   vertical-align: middle;
   border-radius: 10px;
 }
 .About-redes {
   float: left;
-
-
 }
 .About-group-tec {
   float: left;
@@ -137,7 +142,6 @@ body::-webkit-scrollbar-thumb {
   padding-right: 0.3cm;
   color: #368cfd;
   float: right;
-  position: relative;
   text-decoration: none;
 }
 .About-redes a:hover {
@@ -246,28 +250,24 @@ body::-webkit-scrollbar-thumb {
     margin: 2.5%;
   }
   .Menu ul li {
-    display: block;
-    justify-content: center;
+    display: inline;
+    margin-right: 0;
+
   }
   .menu ul {
     max-width: 100%;
-    width: 90%;
+    width: 100%;
     
   }
   .Menu{
     justify-content: center;
-    padding-right: 5%;
-    padding-left: 5%;
-    height: 7cm;
+    height: 1.3cm;
   }
-  .menubotoes {
-    width: 65%;
+  .titulos {
+    margin-top: 1cm;
   }
   .Menu-titulo{
-    max-width: 100%;
-    width: 90%;
-    margin: 5%;
-    padding: 0%;
-
+    min-width: 0%;
+    width: 0%;
   }
 }

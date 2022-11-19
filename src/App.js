@@ -16,7 +16,7 @@ function App() {
               </ul>
           </div>    
         </div>
-        <h1 className="titulos">Sobre</h1>
+        <h1 className="titulos"><br/>Sobre</h1>
         <div className="container1">
           <div className="About-group-redes">
             <img src={foto} className="About-foto" alt="foto" />
