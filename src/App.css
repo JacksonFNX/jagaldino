@@ -241,6 +241,7 @@ body::-webkit-scrollbar-thumb {
   .About-group-redes, .About-group-desc{
     max-width: 100%;
     width: 90%;
+    min-height: 12cm;
     padding: 2.5%;
     margin: 2.5%;
   }
