@@ -8,11 +8,13 @@ function App() {
       <header id="About-header">
         <div className="Menu">
           <img src={titulo} className="Menu-titulo" alt="linkedin"/>
-              <ul>
+          <div className="menubotoes">
+          <ul>
                   <li><a href="#About-header">Sobre</a> </li>
                   <li><a href="#Projects">Projetos</a> </li>
                   <li><a href="#Contact">Contato</a> </li>
               </ul>
+          </div>    
         </div>
         <h1 className="titulos">Sobre</h1>
         <div className="container1">
