@@ -27,9 +27,8 @@ function App() {
               <div className="About-redes">
                 <a
                   className="About-link"
-                  href="#"
-                  // href="https://www.linkedin.com/in/jackson-galdino-651548197/"
-                  target="_self"
+                  href="https://www.linkedin.com/in/jackson-galdino-651548197/"
+                  target="_blank"
                   rel="noopener noreferrer"
                 >
                 <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" className="About-icone" alt="linkedin"/> 
@@ -39,9 +38,8 @@ function App() {
               <div className="About-redes">
                 <a
                   className="About-link"
-                  href="#"
-                  // href="https://github.com/JacksonFNX"
-                  target="_self"
+                  href="https://github.com/JacksonFNX"
+                  target="_blank"
                   rel="noopener noreferrer"
                 >
                 <img src="https://github.githubassets.com/favicons/favicon-dark.png" className="About-icone" alt="linkedin"/> 
@@ -51,9 +49,8 @@ function App() {
               <div className="About-redes">
                 <a
                   className="About-link"
-                  href="#"
-                  // href="https://www.instagram.com/jagaldinofnx/"
-                  target="_self"
+                  href="https://www.instagram.com/jagaldinofnx/"
+                  target="_blank"
                   rel="noopener noreferrer"
                 >
                 <img src="https://static.cdninstagram.com/rsrc.php/v3/yB/r/-7Z_RkdLJUX.png" className="About-icone" alt="Instagram"/> 
@@ -75,10 +72,8 @@ function App() {
           </div>
           <div className="About-group-desc">
               <h3>Quem sou eu?</h3>
-              <p> &nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+              <p> &nbsp; Olá! Me chamo Jackson Galdino, sou Freelancer e atualmente estou cursando Ciência da Computação no Centro Universitário de João Pessoa (UNIPÊ).
               </p> <br/>
-              {/* <p> &nbsp; Olá! Me chamo Jackson Galdino, sou Freelancer e atualmente estou cursando Ciência da Computação no Centro Universitário de João Pessoa (UNIPÊ).
-              </p> <br/> */}
               <h3>Tecnologias:</h3>
               <br/>
               <div className="About-group-tec">
