@@ -99,7 +99,7 @@ function App() {
               <h2 className="titulos">Projetos</h2>
               <div className="container3">
                 <div className="Project-block1">
-                  Cafeteria (academico)
+                  Cafeteria (acadêmico)
                   <a href="https://jacksonfnx.github.io/acacafe/" target="_blank" rel="noopener noreferrer"><br/>
                     <div className="botao-visitar">
                     VISITAR
@@ -126,6 +126,19 @@ function App() {
       </div>
       <div id= "Contact">
               <h2 className="titulos">Contato</h2>
+              <br/>
+              <br/>
+              <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+              </p>
+              <br/>
+              <p>
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              </p>
+              <br/>
+              <p>
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
       </div>
     </div>
   );
