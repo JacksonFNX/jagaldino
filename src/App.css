@@ -170,6 +170,7 @@ body::-webkit-scrollbar-thumb {
   padding-top: 0.2cm;
   background-color: 
   #2c0041;
+  opacity: 0.8;
   font-style: bold;
   position: absolute;
   top: 70%;
@@ -236,21 +237,37 @@ body::-webkit-scrollbar-thumb {
   float: left;
   border-radius: 10px;
 }
-.Project-block1, .Project-block2, .Project-block3, .Project-block4, .Project-block5, .Project-block6, .botao-visitar{
-  z-index: -1;
+.Project-block1, .Project-block2, .Project-block3, .Project-block4, .Project-block5, .Project-block6{
+  position: relative;
   display: inline-block;
-  opacity: 0.8;
+  opacity: 0.5;
   transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1)
 }
-.Project-block1:after, .Project-block2:after, .Project-block3:after, .Project-block4:after, .Project-block5:after, .Project-block6:after, .botao-visitar:after {
+.Project-block1:after, .Project-block2:after, .Project-block3:after, .Project-block4:after, .Project-block5:after, .Project-block6:after {
   transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1)
 }
-.Project-block1:hover, .Project-block2:hover, .Project-block3:hover, .Project-block4:hover, .Project-block5:hover, .Project-block6:hover,.botao-visitar:hover{
+.Project-block1:hover, .Project-block2:hover, .Project-block3:hover, .Project-block4:hover, .Project-block5:hover, .Project-block6:hover{
   opacity: 1;
   transform: scale(115%) ;
   
 }
-.Project-block1:hover::after, .Project-block2:hover::after, .Project-block3:hover::after, .Project-block4:hover::after, .Project-block5:hover::after, .Project-block6:hover::after, .botao-visitar:hover::after{
+.Project-block1:hover::after, .Project-block2:hover::after, .Project-block3:hover::after, .Project-block4:hover::after, .Project-block5:hover::after, .Project-block6:hover::after{
+  opacity: 1;
+}
+.botao-visitar{
+  display: inline-block;
+  opacity: 0.5;
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1)
+}
+.botao-visitar:after {
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1)
+}
+.botao-visitar:hover{
+  opacity: 1;
+  transform: scale(115%) ;
+  
+}
+.botao-visitar:hover::after{
   opacity: 1;
 }
 #Contact{
