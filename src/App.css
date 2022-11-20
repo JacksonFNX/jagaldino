@@ -165,6 +165,9 @@ body::-webkit-scrollbar-thumb {
   background: #0a0a0a;
   font-size: calc(10px + 2vmin);
 }
+#Projects a {
+  color: white;
+}
 .Project-block1 {
   background: url('./Images/cafe.jpg');
   margin-left: 2.5%;
@@ -298,7 +301,4 @@ body::-webkit-scrollbar-thumb {
     width: 80%;
     margin-left: 5%;
   }
-}
-#Projects a {
-  color: white;
 }
