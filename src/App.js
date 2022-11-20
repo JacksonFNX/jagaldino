@@ -98,12 +98,14 @@ function App() {
       <div id= "Projects">
               <h2 className="titulos">Projetos</h2>
               <div className="container3">
-              <a href="https://jacksonfnx.github.io/acacafe/" target="_blank" rel="noopener noreferrer">
-              <div className="Project-block1">
+                <div className="Project-block1">
                   Cafeteria (academico)
+                  <a href="https://jacksonfnx.github.io/acacafe/" target="_blank" rel="noopener noreferrer"><br/>
+                    <div className="botao-visitar">
+                    VISITAR
+                    </div>
+                  </a>
                 </div>
-              </a>
-                
                 <div className="Project-block2">
                   Em breve
                 </div>
