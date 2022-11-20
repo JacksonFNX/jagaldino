@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jagaldino/static/css/main.74b3c434.css",
-    "main.js": "/jagaldino/static/js/main.fa7c7050.js",
+    "main.css": "/jagaldino/static/css/main.62c935e3.css",
+    "main.js": "/jagaldino/static/js/main.4582385c.js",
     "static/js/787.1ed0c42c.chunk.js": "/jagaldino/static/js/787.1ed0c42c.chunk.js",
     "static/media/5.png": "/jagaldino/static/media/5.287e488a237a2207da45.png",
     "static/media/2.png": "/jagaldino/static/media/2.c0faa13f22c9ee16216a.png",
@@ -12,12 +12,12 @@
     "static/media/cafe.jpg": "/jagaldino/static/media/cafe.993971b0c007223a82f2.jpg",
     "static/media/Comfortaa-VariableFont_wght.ttf": "/jagaldino/static/media/Comfortaa-VariableFont_wght.4d2ab5de91c4d193a69f.ttf",
     "index.html": "/jagaldino/index.html",
-    "main.74b3c434.css.map": "/jagaldino/static/css/main.74b3c434.css.map",
-    "main.fa7c7050.js.map": "/jagaldino/static/js/main.fa7c7050.js.map",
+    "main.62c935e3.css.map": "/jagaldino/static/css/main.62c935e3.css.map",
+    "main.4582385c.js.map": "/jagaldino/static/js/main.4582385c.js.map",
     "787.1ed0c42c.chunk.js.map": "/jagaldino/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.74b3c434.css",
-    "static/js/main.fa7c7050.js"
+    "static/css/main.62c935e3.css",
+    "static/js/main.4582385c.js"
   ]
 }
