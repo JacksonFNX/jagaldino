@@ -1,6 +1,7 @@
 import foto from './Images/red.png';
 // import logo from './Images/logo.png'
 import titulo from './Images/Jagal.png'
+import GitHub from './Images/GitHub.png'
 import './App.css';
 function App() {
   return (
@@ -42,7 +43,7 @@ function App() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                <img src="https://github.githubassets.com/favicons/favicon-dark.png" className="About-icone" alt="linkedin"/> 
+                <img src={GitHub} className="About-icone" alt="linkedin"/> 
                   GitHub
                 </a>
               </div>
