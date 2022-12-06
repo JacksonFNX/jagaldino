@@ -241,7 +241,7 @@ body::-webkit-scrollbar-thumb {
 }
 .Project-block1:hover, .Project-block2:hover, .Project-block3:hover, .Project-block4:hover, .Project-block5:hover, .Project-block6:hover{
   opacity: 1;
-  transform: scale(115%) ;
+  transform: scale(117%) ;
   z-index: 1;
 }
 .Project-block1:hover::after, .Project-block2:hover::after, .Project-block3:hover::after, .Project-block4:hover::after, .Project-block5:hover::after, .Project-block6:hover::after{
