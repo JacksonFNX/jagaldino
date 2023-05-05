@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/jagaldino/static/css/main.05642f72.css",
-    "main.js": "/jagaldino/static/js/main.b82520c2.js",
+    "main.css": "/jagaldino/static/css/main.032dc9e5.css",
+    "main.js": "/jagaldino/static/js/main.1604f311.js",
     "static/js/787.1ed0c42c.chunk.js": "/jagaldino/static/js/787.1ed0c42c.chunk.js",
     "static/media/5.png": "/jagaldino/static/media/5.287e488a237a2207da45.png",
     "static/media/2.png": "/jagaldino/static/media/2.c0faa13f22c9ee16216a.png",
     "static/media/4.png": "/jagaldino/static/media/4.522f48da4dca3c46e2a9.png",
     "static/media/6.png": "/jagaldino/static/media/6.7ba53a9805089d025deb.png",
     "static/media/3.png": "/jagaldino/static/media/3.a25906caaccb435b93ae.png",
-    "static/media/red.png": "/jagaldino/static/media/red.b831a7340fc2e7ab1db4.png",
     "static/media/cafe.jpg": "/jagaldino/static/media/cafe.993971b0c007223a82f2.jpg",
     "static/media/Comfortaa-VariableFont_wght.ttf": "/jagaldino/static/media/Comfortaa-VariableFont_wght.4d2ab5de91c4d193a69f.ttf",
+    "static/media/eu.jpg": "/jagaldino/static/media/eu.979d740cd5d04149282b.jpg",
     "static/media/GitHub.png": "/jagaldino/static/media/GitHub.12734544c05a4d837e1b.png",
     "index.html": "/jagaldino/index.html",
-    "main.05642f72.css.map": "/jagaldino/static/css/main.05642f72.css.map",
-    "main.b82520c2.js.map": "/jagaldino/static/js/main.b82520c2.js.map",
+    "main.032dc9e5.css.map": "/jagaldino/static/css/main.032dc9e5.css.map",
+    "main.1604f311.js.map": "/jagaldino/static/js/main.1604f311.js.map",
     "787.1ed0c42c.chunk.js.map": "/jagaldino/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.05642f72.css",
-    "static/js/main.b82520c2.js"
+    "static/css/main.032dc9e5.css",
+    "static/js/main.1604f311.js"
   ]
 }
