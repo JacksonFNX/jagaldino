@@ -102,10 +102,13 @@ body::-webkit-scrollbar-thumb {
   
 }
 .About-foto {
-  width: 40%;
+  display:inline-block;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
   object-fit: cover;
   border-radius: 50%;
-  box-shadow:         0px 5px 7px #00000070;
+  box-shadow: 0px 5px 7px #00000070;
 }
 .About-icone {
   padding: 0.3cm;
@@ -162,17 +165,16 @@ body::-webkit-scrollbar-thumb {
 
 .botao-visitar {
   font-family: 'Comfortaa';
-  padding-top: 0.4cm;
   background-color: 
-  #0074d3;
+  #5a5a5a;
   opacity: 0.8;
   position: absolute;
   top: 70%;
-  left: 20%;
-  height: 1.2cm;
-  width: 60%;
+  left: 25%;
+  width: 50%;
   color: white;
-  border-radius: 10px;
+  border-radius: 1px;
+  box-shadow: 1px 3px 7px #ffffff;
 }
 .Project-block1 {
   background: url('./Images/cafe.jpg');

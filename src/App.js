@@ -1,4 +1,4 @@
-import foto from './Images/red.png';
+import foto from './Images/eu.jpg';
 // import logo from './Images/logo.png'
 import titulo from './Images/Jagal.png'
 import GitHub from './Images/GitHub.png'
@@ -73,7 +73,7 @@ function App() {
           </div>
           <div className="About-group-desc">
               <h3>Quem sou eu?</h3>
-              <p> &nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+              <p> &nbsp; Sou Desenvolvedor Front-End, atualmente estou cursando o quinto período de Ciência da Computação no Centro Universitário de João Pessoa (UNIPÊ).
               </p> <br/>
               <h3>Tecnologias:</h3>
               <br/>
@@ -130,15 +130,15 @@ function App() {
               <br/>
               <br/>
               <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+              jacksongaldinofnx@gmail.com
               </p>
               <br/>
               <p>
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              +55 (83) 99999-9999 
               </p>
               <br/>
               <p>
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Discord: FNX_#9803
               </p>
       </div>
     </div>
