@@ -32,14 +32,13 @@ body::-webkit-scrollbar-thumb {
   margin-left: 1.5cm;
 }
 .Menu {
-  z-index: 2;
+  z-index: 10000;
   position: fixed;
   padding: 0;
-  margin-top: -1.8em;
   width: 100%;
   background-color: #031134;
   height: 1.8cm;
-  background:  linear-gradient( 120deg, #00000e,  #1b002b );
+  background:  linear-gradient( 120deg, #000a17, #00000d);
 }
 .Menu-titulo{
   min-width: 20%;
@@ -75,39 +74,43 @@ body::-webkit-scrollbar-thumb {
   color: #585858;
   text-decoration: none;
 }
-.About-group-redes {
-  width: 40%;
+.Menu h1{
   float: left;
-  background: #01001370;
+  text-align: left;
+  margin-top: 0;
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+.Destaque-des1 {
+  z-index: 2;
+  width: 42%;
+  float: left;
+  background: #010013da;
   margin: 2%;
   min-height: 13cm;
   padding: 2%;
   border-radius: 10px;
   box-shadow:         0px 5px 7px #00000070;
 }
-.About-group-desc {
-  width: 44%;
-  float: right;
-  min-height: 13cm;
-  background: #01001370;
+.Destaque-des2 {
+  z-index: 2;
+  width: 42%;
+  float: left;
+  background: #010013da;
   margin: 2%;
+  min-height: 13cm;
   padding: 2%;
   border-radius: 10px;
-  text-align: start;
   box-shadow:         0px 5px 7px #00000070;
 }
-.About-group-desc p {
-  margin: 0;
-  margin-left: 2%;
-  
-}
-.About-foto {
+.foto {
+  position: relative;
+  z-index:3;
   display:inline-block;
-  width: 200px;
-  height: 200px;
+  width: 95%;
   overflow: hidden;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 5px;
   box-shadow: 0px 5px 7px #00000070;
 }
 .About-icone {
@@ -136,14 +139,452 @@ body::-webkit-scrollbar-thumb {
   padding-bottom: 0.1cm;
 }
 #About-header {
-  background:  linear-gradient( 120deg, #02011f, #22003d, #2c0041, #003a57 ); 
-  min-height: 28cm;
+  background:  linear-gradient( #000a17, #00051c, #000215, #00000d ); 
+  min-height: 30cm;
   height: relative;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.stars {
+  z-index: 1;
+  position: relative;
+  float: left;
+	width: 3px;
+	height: 3px;
+  width: 3px;
+	height: 3px;
+	border-radius: 50%;
+	box-shadow: 550px 70px white,
+  1200px 40px white,
+  900px 40px white,
+  1300px 80px white,
+  800px 60px white,
+  600px 6px white,
+  420px 10px white,
+  200px 50px white,
+  150px 100px white,
+  1100px 150px white,
+  250px 130px white,
+  700px 200px white,
+  1400px 20px white,
+  320px 100px white,
+  1000px 70px white,
+  500px 120px white,
+  900px 40px white,
+  1200px 40px white,
+  80px 120px white,
+  1500px 10px white,
+  600px 6px white,
+  380px 80px white,
+  800px 60px white,
+  700px 200px white,
+  150px 100px white,
+  1100px 150px white,
+  250px 130px white,
+  420px 10px white,
+  1400px 20px white,
+  320px 100px white,
+  900px 40px white,
+  550px 70px white,
+  1500px 10px white,
+  200px 50px white,
+  380px 80px white,
+  80px 120px white,
+  1300px 80px white,
+  500px 120px white,
+  600px 6px white,
+  900px 40px white,
+  150px 100px white,
+  700px 200px white,
+  800px 60px white,
+  1200px 40px white,
+  1400px 20px white,
+  250px 130px white,
+  320px 100px white,
+  1100px 150px white,
+  380px 80px white,
+  1200px 1500px white,
+  500px 768px white,
+  1500px 1875px white,
+  800px 1283px white,
+  150px 256px white,
+  700px 1366px white,
+  900px 1646px white,
+  250px 375px white,
+  420px 564px white,
+  1000px 1759px white,
+  1500px 1297px white,
+  1400px 1825px white,
+  600px 963px white,
+  900px 1285px white,
+  80px 1683px white,
+  380px 779px white,
+  320px 1991px white,
+  550px 1536px white,
+  200px 1442px white,
+  900px 874px white,
+  700px 1311px white,
+  1300px 1501px white,
+  150px 499px white,
+  1400px 1922px white,
+  600px 1262px white,
+  800px 572px white,
+  1100px 1254px white,
+  380px 1977px white,
+  420px 1098px white,
+  250px 1568px white,
+  1200px 1539px white,
+  80px 1308px white,
+  1500px 1301px white,
+  1100px 1512px white,
+  500px 430px white,
+  1300px 1984px white,
+  700px 1914px white,
+  800px 287px white,
+  200px 1682px white,
+  150px 541px white,
+  900px 922px white,
+  1500px 1702px white,
+  420px 1545px white,
+  600px 789px white,
+  320px 567px white,
+  1400px 1924px white,
+  900px 13px white,
+  250px 1807px white,
+  150px 1169px white,
+  800px 1471px white,
+  1000px 70px white;
+  animation: anim-stars 30s linear infinite;
+}
+.stars::after{
+  content: " ";
+  position: absolute;
+  top: 150px;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  box-shadow: 1300px 80px white,
+  550px 70px white,
+  900px 40px white,
+  1500px 10px white,
+  800px 60px white,
+  250px 130px white,
+  1200px 40px white,
+  420px 10px white,
+  1100px 150px white,
+  1400px 20px white,
+  150px 100px white,
+  700px 200px white,
+  320px 100px white,
+  500px 120px white,
+  80px 120px white,
+  600px 6px white,
+  900px 40px white,
+  200px 50px white,
+  380px 80px white,
+  1000px 70px white,
+  700px 200px white,
+  150px 100px white,
+  800px 60px white,
+  420px 10px white,
+  1200px 40px white,
+  250px 130px white,
+  600px 6px white,
+  1400px 20px white,
+  550px 70px white,
+  320px 100px white,
+  380px 80px white,
+  1500px 10px white,
+  900px 40px white,
+  1100px 150px white,
+  500px 120px white,
+  80px 120px white,
+  1300px 80px white,
+  700px 200px white,
+  800px 60px white,
+  200px 50px white,
+  150px 100px white,
+  420px 10px white,
+  600px 6px white,
+  320px 100px white,
+  1400px 20px white,
+  900px 40px white,
+  250px 130px white,
+  1300px 479px white,
+  800px 1935px white,
+  550px 1241px white,
+  250px 1594px white,
+  1200px 873px white,
+  900px 932px white,
+  600px 1239px white,
+  420px 78px white,
+  1100px 1754px white,
+  1500px 1329px white,
+  1400px 1916px white,
+  150px 712px white,
+  700px 1016px white,
+  320px 1769px white,
+  900px 1994px white,
+  80px 1837px white,
+  380px 1836px white,
+  1000px 782px white,
+  1500px 381px white,
+  200px 1544px white,
+  700px 956px white,
+  1300px 1772px white,
+  550px 1601px white,
+  800px 1289px white,
+  600px 742px white,
+  420px 1101px white,
+  150px 1701px white,
+  1200px 362px white,
+  380px 1112px white,
+  500px 1491px white,
+  1400px 1928px white,
+  80px 1465px white,
+  1500px 1234px white,
+  1100px 369px white,
+  900px 1583px white,
+  1300px 535px white,
+  200px 1487px white,
+  800px 682px white,
+  320px 1194px white,
+  150px 1955px white,
+  420px 1864px white,
+  900px 43px white,
+  1500px 1792px white,
+  600px 14px white,
+  700px 1716px white,
+  380px 1007px white,
+  250px 1157px white,
+  1200px 1930px white,
+  500px 1373px white,
+  800px 120px white,
+  380px 80px white,
+  1100px 150px white,
+  1000px 70px white;
+}
+.stars2 {
+  position: relative;
+	width: 1px;
+	height: 1px;
+	border-radius: 50%;
+	box-shadow: 1100px 1527px white,
+  320px 1669px white,
+  1724px 1693px white,
+1088px 134px white,
+1471px 1173px white,
+348px 249px white,
+994px 1970px white,
+1125px 506px white,
+137px 389px white,
+627px 1292px white,
+806px 1257px white,
+1235px 1572px white,
+1342px 1308px white,
+1590px 1175px white,
+1252px 896px white,
+1603px 1223px white,
+987px 583px white,
+1097px 1539px white,
+251px 1180px white,
+1548px 1046px white,
+147px 723px white,
+889px 1066px white,
+1001px 1394px white,
+1796px 95px white,
+672px 27px white,
+1013px 114px white,
+12px 1972px white,
+433px 1615px white,
+593px 1980px white,
+1906px 1082px white,
+161px 822px white,
+879px 1440px white,
+570px 82px white,
+480px 297px white,
+1260px 1530px white,
+1384px 834px white,
+839px 311px white,
+47px 775px white,
+1831px 1834px white,
+1408px 127px white,
+1987px 1682px white,
+699px 76px white,
+1565px 1217px white,
+744px 1401px white,
+1527px 1951px white,
+1067px 1351px white,
+1020px 773px white,
+1285px 470px white,
+863px 276px white,
+936px 529px white,
+1700px 197px white,
+1189px 1423px white,
+138px 925px white,
+1090px 1026px white,
+387px 52px white,
+568px 422px white,
+142px 614px white,
+485px 169px white,
+895px 1383px white,
+1678px 1653px white,
+1994px 112px white,
+1575px 581px white,
+1187px 1344px white,
+563px 1709px white,
+783px 1267px white,
+323px 497px white,
+1543px 255px white,
+1788px 998px white,
+288px 505px white,
+1953px 1469px white,
+92px 1847px white,
+953px 453px white,
+680px 972px white,
+104px 515px white,
+1295px 1118px white,
+1199px 875px white,
+161px 1503px white,
+1349px 125px white,
+1145px 1131px white,
+1693px 1849px white,
+1512px 1162px white,
+153px 473px white,
+1121px 1135px white,
+43px 937px white,
+761px 1553px white,
+526px 267px white,
+696px 977px white,
+1727px 759px white,
+1497px 1125px white,
+1476px 1752px white,
+791px 334px white,
+1px 1345px white,
+1991px 1944px white,
+1611px 1403px white,
+140px 1734px white,
+1072px 1547px white,
+994px 439px white,
+1458px 1781px white;
+  animation: anim-stars 35s linear infinite;
+}
+.stars2::after{
+  content: " ";
+  position: absolute;
+  top: 150px;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  box-shadow: 534px 679px white,
+  1472px 1011px white,
+  853px 684px white,
+  1347px 1124px white,
+  1919px 253px white,
+  588px 1140px white,
+  1398px 473px white,
+  317px 1313px white,
+  880px 752px white,
+  194px 1224px white,
+  957px 819px white,
+  1572px 1373px white,
+  92px 832px white,
+  1521px 1532px white,
+  1984px 477px white,
+  874px 937px white,
+  1048px 1335px white,
+  29px 422px white,
+  1646px 1326px white,
+  907px 1192px white,
+  387px 114px white,
+  1174px 446px white,
+  1675px 752px white,
+  1629px 442px white,
+  547px 1256px white,
+  1258px 345px white,
+  1008px 29px white,
+  1030px 996px white,
+  1232px 1963px white,
+  288px 1463px white,
+  891px 540px white,
+  320px 776px white,
+  1419px 1345px white,
+  682px 987px white,
+  1712px 1502px white,
+  1478px 581px white,
+  1162px 1696px white,
+  1687px 1720px white,
+  1060px 1567px white,
+  405px 234px white,
+  1454px 264px white,
+  303px 1437px white,
+  1666px 1337px white,
+  1197px 1211px white,
+  734px 1433px white,
+  722px 1393px white,
+  1321px 1307px white,
+  607px 1957px white,
+  1545px 82px white,
+  371px 1740px white,
+  250px 1301px white,
+  1807px 229px white,
+  760px 1144px white,
+  356px 77px white,
+  1414px 74px white,
+  1461px 1180px white,
+  24px 906px white,
+  1172px 1212px white,
+  1728px 831px white,
+  1281px 1927px white,
+  80px 228px white,
+  480px 1357px white,
+  1113px 131px white,
+  906px 670px white,
+  1337px 1331px white,
+  760px 1027px white,
+  695px 41px white,
+  958px 448px white,
+  1573px 1890px white,
+  241px 1777px white,
+  628px 665px white,
+  1955px 27px white,
+  1508px 289px white,
+  1835px 759px white,
+  1151px 1240px white,
+  621px 726px white,
+  987px 1056px white,
+  1768px 480px white,
+  1367px 617px white,
+  1115px 1021px white,
+  1989px 1801px white,
+  1385px 1260px white,
+  553px 150px white,
+  1296px 201px white,
+  1543px 791px white,
+  81px 1594px white,
+  1138px 1352px white,
+  1439px 641px white,
+  82px 1438px white,
+  1114px 1097px white,
+  1266px 1522px white,
+  200px 1984px white,
+  1654px 662px white,
+  135px 462px white,
+  978px 1590px white,
+  61px 1991px white,
+  844px 1047px white,
+  1199px 798px white;
+}
 
+@keyframes anim-stars {
+  from {
+      transform: translateY(0px);
+  }
+  to {
+      transform: translateY(-250px);
+  }
+}
 .About-link {
   padding-right: 0.3cm;
   color: #368cfd;
@@ -159,25 +600,15 @@ body::-webkit-scrollbar-thumb {
   color: white;
   min-height: 25cm;
   justify-content: center;
-  background: #0a0a0a;
+  background:  linear-gradient( #00000d , #003366, #005387, #0072a6, #0092c7, #00b3e8, #4acfff, #a7e0ff);
   font-size: calc(10px + 2vmin);
 }
-
-.botao-visitar {
-  font-family: 'Comfortaa';
-  background-color: 
-  #5a5a5a;
-  opacity: 0.8;
-  position: absolute;
-  top: 70%;
-  left: 25%;
-  width: 50%;
+a{
+  text-decoration: none;
   color: white;
-  border-radius: 1px;
-  box-shadow: 1px 3px 7px #ffffff;
 }
 .Project-block1 {
-  background: url('./Images/cafe.jpg');
+  background: url('./Images/not1.png');
   margin-left: 2.5%;
   margin-top: 1cm;
   width: 30%;
@@ -235,7 +666,7 @@ body::-webkit-scrollbar-thumb {
 .Project-block1, .Project-block2, .Project-block3, .Project-block4, .Project-block5, .Project-block6{
   position: relative;
   display: inline-block;
-  opacity: 0.5;
+  opacity: 0.9;
   transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1)
 }
 .Project-block1:after, .Project-block2:after, .Project-block3:after, .Project-block4:after, .Project-block5:after, .Project-block6:after {
@@ -266,11 +697,17 @@ body::-webkit-scrollbar-thumb {
   opacity: 1;
 }
 #Contact{
+  z-index: 3;
+  position: relative;
   color: white;
   padding: 0.01cm;
   min-height: 25cm;
   background: #0a0a0a;
   font-size: calc(10px + 2vmin);
+}
+.paragrafo {
+  text-align: left;
+  font-size:large;
 }
 @media screen and (max-width: 768px) {
   .About-group-redes, .About-group-desc{
@@ -310,9 +747,9 @@ body::-webkit-scrollbar-thumb {
     
   }
   .Menu{
-    margin-top: -2.7em;
+    margin-top: 0em;
     justify-content: center;
-    height: 1.3cm;
+    height: 2.5cm;
   }
   .titulos {
     margin-top: 1cm;
